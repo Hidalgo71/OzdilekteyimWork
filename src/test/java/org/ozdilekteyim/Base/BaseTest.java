@@ -55,7 +55,9 @@ public class BaseTest
     @AfterScenario
     public void afterScenario()
     {
-        if(appiumDriver != null)
+       /* if(appiumDriver != null)
             appiumDriver.quit();
+
+        */
     }
 }
